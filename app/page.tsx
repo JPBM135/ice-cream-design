@@ -1,8 +1,5 @@
-import Image from 'next/image';
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
+import { Header } from './components/Header';
 
 export default function Home() {
-	return <main className="bg-orange-50 w-screen h-screen"></main>;
+	return <main className="bg-gradient-to-b from-bg_color to-bg_color_secondary w-full h-screen" />;
 }
