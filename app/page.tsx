@@ -1,5 +1,10 @@
 import { Header } from './components/Header';
 
 export default function Home() {
-	return <main className="bg-gradient-to-b from-bg_color to-bg_color_secondary w-full h-screen" />;
+	return (
+		<div className="w-full h-fit">
+			<Header />
+			<main className="w-full h-[10000px] bg-gradient-to-b from-bg_color to-bg_color_secondary" />
+		</div>
+	);
 }
