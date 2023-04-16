@@ -4,7 +4,8 @@ import { Header } from '@app/app/components/Header';
 import rawFlavors from '@app/public/balls.json' assert { type: 'json' };
 import Image from 'next/image';
 import { useMemo, useState } from 'react';
-import { createStorageBucketUrl } from '../utils';
+import { useWindowSize } from '../utils/useWindow';
+import { createStorageBucketUrl } from '../utils/utils';
 
 const MAX_SELECTED = 4;
 
@@ -21,6 +22,8 @@ export default function FlavorsPage() {
 	const [flavors, setFlavors] = useState<Flavor[]>(
 		rawFlavors.map<Flavor>((flavor) => ({ ...flavor, selected: false })),
 	);
+
+	const size = useWindowSize();
 
 	const selectedCount = () => flavors.filter((flavor) => flavor.selected).length;
 
@@ -45,54 +48,48 @@ export default function FlavorsPage() {
 	};
 
 	const coneSize = useMemo(() => {
-		if (!globalThis?.window) {
+		if (!size.height) {
 			return 200;
 		}
 
-		if (globalThis?.window.innerHeight <= 720) {
+		if (size.height <= 720) {
 			return 150;
 		}
 
-		if (globalThis?.window.innerHeight <= 1_080) {
+		if (size.height <= 1_080) {
 			return 200;
 		}
-		// Force re-render on window resize
-		// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [globalThis?.window?.innerHeight]);
+	}, [size]);
 
 	const selectedIceCreamSize = useMemo(() => {
-		if (!globalThis?.window) {
-			return 300;
-		}
-
-		if (globalThis?.window.innerHeight <= 720) {
+		if (!size.height) {
 			return 200;
 		}
 
-		if (globalThis?.window.innerHeight <= 1_080) {
+		if (size.height! <= 720) {
+			return 200;
+		}
+
+		if (size.height! <= 1_080) {
 			return 300;
 		}
-		// Force re-render on window resize
-		// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [globalThis?.window?.innerHeight]);
+	}, [size]);
 
 	const iceCreamBallsFormula = useMemo(() => {
-		if (!globalThis?.window) {
+		if (!size.height) {
 			return (index: number) => (index + 1) * 100 + 340;
 		}
 
-		if (globalThis?.window.innerHeight <= 720) {
+		if (size.height <= 720) {
 			return (index: number) => (index + 1) * 70 + 310;
 		}
 
-		if (globalThis?.window.innerHeight <= 1_080) {
+		if (size.height <= 1_080) {
 			return (index: number) => (index + 1) * 100 + 340;
 		}
 
 		return (index: number) => (index + 1) * 100 + 340;
-		// Force re-render on window resize
-		// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [globalThis?.window?.innerHeight]);
+	}, [size]);
 
 	console.log('flavors', {
 		window: globalThis?.window,
