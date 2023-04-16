@@ -3,7 +3,8 @@
 import { Header } from '@app/app/components/Header';
 import rawFlavors from '@app/public/balls.json' assert { type: 'json' };
 import Image from 'next/image';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
+import { createStorageBucketUrl } from '../utils';
 
 const MAX_SELECTED = 4;
 
@@ -39,6 +40,40 @@ export default function FlavorsPage() {
 		);
 	};
 
+	const coneSize = useMemo(() => {
+		console.log(window);
+
+		if (window.innerHeight <= 720) {
+			return 150;
+		}
+
+		if (window.innerHeight <= 1_080) {
+			return 200;
+		}
+	}, []);
+
+	const selectedIceCreamSize = useMemo(() => {
+		if (window.innerHeight <= 720) {
+			return 200;
+		}
+
+		if (window.innerHeight <= 1_080) {
+			return 300;
+		}
+	}, []);
+
+	const iceCreamBallsFormula = useMemo(() => {
+		if (window.innerHeight <= 720) {
+			return (index: number) => (index + 1) * 70 + 310;
+		}
+
+		if (window.innerHeight <= 1_080) {
+			return (index: number) => (index + 1) * 100 + 340;
+		}
+	}, []);
+
+	console.log(coneSize, 100 + window.innerHeight / 2.65);
+
 	return (
 		<div className="w-full h-fit">
 			<Header allowBiggerLogo={false} />
@@ -57,7 +92,8 @@ export default function FlavorsPage() {
 								className="m-auto"
 								height={280}
 								loading="lazy"
-								src={`/balls/${flavor.id}`}
+								sizes="(max-width: 780px) 150px, (max-width: 1024px) 150px, 280px"
+								src={createStorageBucketUrl(flavor.id)}
 								width={280}
 							/>
 							<span className="text-white font-semibold text-center block">{flavor.namePtBr}</span>
@@ -70,27 +106,27 @@ export default function FlavorsPage() {
 						.map((flavor, index) => (
 							<Image
 								alt={flavor.name}
-								className="absolute m-auto mb-0 center-ice-cream-ball"
-								height={300}
+								className="absolute m-auto mb-0 center-ice-cream-ball xl:right-[6.5rem] 2xl:right-20"
+								height={selectedIceCreamSize}
 								key={flavor.id}
 								loading="lazy"
-								src={`/balls/${flavor.id}`}
+								src={createStorageBucketUrl(flavor.id)}
 								style={{
-									bottom: `${(index + 1) * 100 + 340}px`,
+									bottom: `${iceCreamBallsFormula!(index)}px`,
 								}}
-								width={300}
+								width={selectedIceCreamSize}
 							/>
 						))}
 					<Image
 						alt="Ice Cream Cone"
-						className="m-auto mt-[25rem]"
-						height={200}
+						className="m-auto xl:mt-[16rem] 2xl:mt-[25rem]"
+						height={coneSize}
 						loading="lazy"
 						src="/ice-cream-cone.png"
-						width={200}
+						width={coneSize}
 					/>
 					<div className="absolute bottom-20 w-full flex flex-row justify-center items-center">
-						<div className="flex flex-row justify-center items-center px-3 py-2 mb-3 border border-primary rounded-xl text-primary font-bold text-xl font-nunito">
+						<div className="flex flex-row justify-center items-center px-3 py-2 mb-3 border border-dashed border-primary rounded-xl text-primary font-bold text-xl font-nunito">
 							<div
 								className={`w-8 h-8 rounded-l-full border-2 border-primary mx-1 ${
 									selectedCount() >= 1 ? 'bg-primary' : ''

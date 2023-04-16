@@ -4,6 +4,15 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  images: {
+    domains: ['objectstorage.us-ashburn-1.oraclecloud.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'objectstorage.us-ashburn-1.oraclecloud.com',
+      },
+    ],
+  },
 }
 
 module.exports = nextConfig
