@@ -1,6 +1,5 @@
 {
 	"extends": [
-		"../../.eslintrc.json",
 		"neon/common",
 		"neon/browser",
 		"neon/node",
