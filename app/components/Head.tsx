@@ -1,6 +1,6 @@
 export function Head() {
 	return (
-		<head>
+		<>
 			<meta charSet="utf-8" />
 			<meta content="width=device-width, initial-scale=1" name="viewport" />
 			<link href="/favicon.ico" rel="icon" />
@@ -34,6 +34,6 @@ export function Head() {
 				content="Indulge in the sweet delight of our scrumptious ice cream flavors. Discover our unique recipes, homemade goodness, and more. Visit the best Ice Cream Website today!"
 				property="twitter:description"
 			/>
-		</head>
+		</>
 	);
 }
