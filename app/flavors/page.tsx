@@ -82,6 +82,14 @@ export default function FlavorsPage() {
 		}
 	}, []);
 
+	console.log('flavors', {
+		window: globalThis?.window,
+		innerHeight: globalThis?.window?.innerHeight,
+		coneSize,
+		selectedIceCreamSize,
+		iceCreamBallsFormula: iceCreamBallsFormula?.toString(),
+	});
+
 	return (
 		<div className="w-full h-fit">
 			<Header allowBiggerLogo={false} />
