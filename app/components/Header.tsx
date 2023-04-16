@@ -50,7 +50,7 @@ export function Header({ allowBiggerLogo = true }: { allowBiggerLogo?: boolean }
 	const student = [
 		'João Pedro Borges Martins',
 		'Matheus Ricardo S. Viela',
-		'Gabriela UNIP',
+		'Gabriela Carolini Paliuco',
 		'Brenda Ferreira dos Santos',
 		'Yohanna A. Lellis',
 		'Ana Lívia Ribeiro',
@@ -145,11 +145,11 @@ export function Header({ allowBiggerLogo = true }: { allowBiggerLogo?: boolean }
 							<div className="flex items-center space-x-2 text-gray-800 border-b border-gray-300" />
 							{student.map((student) => (
 								<div
-									className="flex gap-2 items-center font-medium space-x-2 border-b border-gray-300 py-2"
+									className="flex gap-1 items-center font-medium space-x-1 border-b border-gray-300 py-2"
 									key={student}
 								>
 									<IdentificationCard size={24} />
-									{student}
+									<span className="font-nunito font-semibold">{student}</span>
 								</div>
 							))}
 						</div>
