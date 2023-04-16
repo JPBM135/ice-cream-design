@@ -41,43 +41,43 @@ export default function FlavorsPage() {
 	};
 
 	const coneSize = useMemo(() => {
-		if (!window) {
+		if (!globalThis?.window) {
 			return 200;
 		}
 
-		if (window.innerHeight <= 720) {
+		if (globalThis?.window.innerHeight <= 720) {
 			return 150;
 		}
 
-		if (window.innerHeight <= 1_080) {
+		if (globalThis?.window.innerHeight <= 1_080) {
 			return 200;
 		}
 	}, []);
 
 	const selectedIceCreamSize = useMemo(() => {
-		if (!window) {
+		if (!globalThis?.window) {
 			return 300;
 		}
 
-		if (window.innerHeight <= 720) {
+		if (globalThis?.window.innerHeight <= 720) {
 			return 200;
 		}
 
-		if (window.innerHeight <= 1_080) {
+		if (globalThis?.window.innerHeight <= 1_080) {
 			return 300;
 		}
 	}, []);
 
 	const iceCreamBallsFormula = useMemo(() => {
-		if (!window) {
+		if (!globalThis?.window) {
 			return (index: number) => (index + 1) * 100 + 340;
 		}
 
-		if (window.innerHeight <= 720) {
+		if (globalThis?.window.innerHeight <= 720) {
 			return (index: number) => (index + 1) * 70 + 310;
 		}
 
-		if (window.innerHeight <= 1_080) {
+		if (globalThis?.window.innerHeight <= 1_080) {
 			return (index: number) => (index + 1) * 100 + 340;
 		}
 	}, []);
