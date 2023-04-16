@@ -40,6 +40,10 @@ export default function FlavorsPage() {
 		);
 	};
 
+	const desselectAll = () => {
+		setFlavors((flavors) => flavors.map((flavor) => ({ ...flavor, selected: false })));
+	};
+
 	const coneSize = useMemo(() => {
 		if (!globalThis?.window) {
 			return 200;
@@ -52,7 +56,9 @@ export default function FlavorsPage() {
 		if (globalThis?.window.innerHeight <= 1_080) {
 			return 200;
 		}
-	}, []);
+		// Force re-render on window resize
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [globalThis?.window?.innerHeight]);
 
 	const selectedIceCreamSize = useMemo(() => {
 		if (!globalThis?.window) {
@@ -66,7 +72,9 @@ export default function FlavorsPage() {
 		if (globalThis?.window.innerHeight <= 1_080) {
 			return 300;
 		}
-	}, []);
+		// Force re-render on window resize
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [globalThis?.window?.innerHeight]);
 
 	const iceCreamBallsFormula = useMemo(() => {
 		if (!globalThis?.window) {
@@ -80,7 +88,11 @@ export default function FlavorsPage() {
 		if (globalThis?.window.innerHeight <= 1_080) {
 			return (index: number) => (index + 1) * 100 + 340;
 		}
-	}, []);
+
+		return (index: number) => (index + 1) * 100 + 340;
+		// Force re-render on window resize
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [globalThis?.window?.innerHeight]);
 
 	console.log('flavors', {
 		window: globalThis?.window,
@@ -123,50 +135,60 @@ export default function FlavorsPage() {
 							<Image
 								alt={flavor.name}
 								className="absolute m-auto mb-0 center-ice-cream-ball xl:right-[6.5rem] 2xl:right-20"
-								height={selectedIceCreamSize}
+								height={selectedIceCreamSize ?? 300}
 								key={flavor.id}
 								loading="lazy"
 								src={createStorageBucketUrl(flavor.id)}
 								style={{
-									bottom: `${iceCreamBallsFormula!(index)}px`,
+									bottom: `${iceCreamBallsFormula?.(index)}px`,
 								}}
-								width={selectedIceCreamSize}
+								width={selectedIceCreamSize ?? 300}
 							/>
 						))}
 					<Image
 						alt="Ice Cream Cone"
 						className="m-auto xl:mt-[16rem] 2xl:mt-[25rem]"
-						height={coneSize}
+						height={coneSize ?? 200}
 						loading="lazy"
 						src="/ice-cream-cone.png"
-						width={coneSize}
+						width={coneSize ?? 200}
 					/>
-					<div className="absolute bottom-20 w-full flex flex-row justify-center items-center">
-						<div className="flex flex-row justify-center items-center px-3 py-2 mb-3 border border-dashed border-primary rounded-xl text-primary font-bold text-xl font-nunito">
+					<div className="absolute bottom-20 w-full flex flex-row justify-center items-center gap-4">
+						<div className="flex flex-row justify-center items-center px-3 py-2 mb-3 border border-dashed border-primary rounded-xl text-primary font-bold">
 							<div
-								className={`w-8 h-8 rounded-l-full border-2 border-primary mx-1 ${
+								className={`w-8 h-8 rounded-full border-2 border-primary mx-1 ${
 									selectedCount() >= 1 ? 'bg-primary' : ''
 								}`}
 							/>
 							<div
 								className={`
-								w-8 h-8 border-2 border-primary mx-1
+								w-8 h-8 border-2 rounded-full border-primary mx-1
 								${selectedCount() >= 2 ? 'bg-primary' : ''}
 							`}
 							/>
 							<div
 								className={`
-								w-8 h-8 border-2 border-primary mx-1
+								w-8 h-8 border-2 rounded-full border-primary mx-1
 								${selectedCount() >= 3 ? 'bg-primary' : ''}
 							`}
 							/>
 							<div
 								className={`
-								w-8 h-8  rounded-r-full border-2 border-primary mx-1
+								w-8 h-8 rounded-full border-2 border-primary mx-1
 								${selectedCount() >= 4 ? 'bg-primary' : ''}
 							`}
 							/>
 						</div>
+						<button
+							className="
+							items-center px-3 py-2 mb-3 border border-primary rounded-xl text-primary font-bold font-nunito transition duration-300 ease-in-out hover:bg-primary hover:text-white
+							"
+							disabled={selectedCount() === 0}
+							onClick={() => desselectAll()}
+							type="button"
+						>
+							Deselecionar Todos
+						</button>
 					</div>
 				</div>
 			</main>
