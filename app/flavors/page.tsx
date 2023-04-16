@@ -41,7 +41,9 @@ export default function FlavorsPage() {
 	};
 
 	const coneSize = useMemo(() => {
-		console.log(window);
+		if (!window) {
+			return 200;
+		}
 
 		if (window.innerHeight <= 720) {
 			return 150;
@@ -53,6 +55,10 @@ export default function FlavorsPage() {
 	}, []);
 
 	const selectedIceCreamSize = useMemo(() => {
+		if (!window) {
+			return 300;
+		}
+
 		if (window.innerHeight <= 720) {
 			return 200;
 		}
@@ -63,6 +69,10 @@ export default function FlavorsPage() {
 	}, []);
 
 	const iceCreamBallsFormula = useMemo(() => {
+		if (!window) {
+			return (index: number) => (index + 1) * 100 + 340;
+		}
+
 		if (window.innerHeight <= 720) {
 			return (index: number) => (index + 1) * 70 + 310;
 		}
@@ -71,8 +81,6 @@ export default function FlavorsPage() {
 			return (index: number) => (index + 1) * 100 + 340;
 		}
 	}, []);
-
-	console.log(coneSize, 100 + window.innerHeight / 2.65);
 
 	return (
 		<div className="w-full h-fit">
