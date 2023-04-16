@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;900&family=Nunito&display=swap');
 @media (prefers-color-scheme: dark) {
 	:root {
 		--foreground-rgb: 255, 255, 255;
@@ -10,7 +11,63 @@
 	}
 }
 
+* {
+	font-family: 'Kanit', sans-serif;
+}
+
+.font-nunito {
+	font-family: 'Nunito', sans-serif;
+}
+
 body {
 	width: 100%;
 	height: 100%;
+}
+
+@media (min-width: 700px) {
+	.center-ice-cream-ball {
+		right: 0px;
+	}
+}
+
+@media (min-width: 768px) {
+	.center-ice-cream-ball {
+		right: 12px;
+	}
+}
+
+@media (min-width: 900px) {
+	.center-ice-cream-ball {
+		right: 24px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.center-ice-cream-ball {
+		right: 30px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.center-ice-cream-ball {
+		right: 36px;
+	}
+}
+
+@media (min-width: 1440px) {
+	.center-ice-cream-ball {
+		right: 48px;
+	}
+}
+
+@media (min-width: 1600px) {
+	.center-ice-cream-ball {
+		right: 68px;
+	}
+}
+
+@media (min-width: 1920px) {
+	.center-ice-cream-ball {
+		right: 78px;
+	}
 }
