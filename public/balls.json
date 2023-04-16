@@ -2,56 +2,56 @@
     {
         "id": "banana-cake.png",
         "name": "Banana Cake",
-        "namePtBr": "Bolo de banana",
+        "namePtBr": "Bolo de Banana",
         "description": null,
         "calories": null
     },
     {
         "id": "banana-pudding.png",
         "name": "Banana Pudding",
-        "namePtBr": "Pudim de banana",
+        "namePtBr": "Pudim de Banana",
         "description": null,
         "calories": null
     },
     {
         "id": "berries-and-the-beach-yogurt.png",
         "name": "Berries And The Beach Yogurt",
-        "namePtBr": "Bagas e o iogurte de praia",
+        "namePtBr": "Bagas e o Iogurte de Praia",
         "description": null,
         "calories": null
     },
     {
         "id": "better-brownie-batter.png",
         "name": "Better Brownie Batter",
-        "namePtBr": "Melhor massa de brownie",
+        "namePtBr": "Melhor Massa de Brownie",
         "description": null,
         "calories": null
     },
     {
         "id": "birthday-batter.png",
         "name": "Birthday Batter",
-        "namePtBr": "massa de aniversário",
+        "namePtBr": "Massa de Aniversário",
         "description": null,
         "calories": null
     },
     {
         "id": "birthday-cake.png",
         "name": "Birthday Cake",
-        "namePtBr": "Bolo de aniversário",
+        "namePtBr": "Bolo de Aniversário",
         "description": null,
         "calories": null
     },
     {
         "id": "black-cherry.png",
         "name": "Black Cherry",
-        "namePtBr": "Cereja preta",
+        "namePtBr": "Cereja Preta",
         "description": null,
         "calories": null
     },
     {
         "id": "black-walnut.png",
         "name": "Black Walnut",
-        "namePtBr": "Noz preta",
+        "namePtBr": "Noz Preta",
         "description": null,
         "calories": null
     },
@@ -72,14 +72,14 @@
     {
         "id": "butter-pecan.png",
         "name": "Butter Pecan",
-        "namePtBr": "manteiga de amendoim",
+        "namePtBr": "Manteiga de Amendoim",
         "description": null,
         "calories": null
     },
     {
         "id": "candy-bar-overload.png",
         "name": "Candy Bar Overload",
-        "namePtBr": "Sobrecarga de barra de chocolate",
+        "namePtBr": "Sobrecarga de Barra de Chocolate",
         "description": null,
         "calories": null
     },
@@ -93,7 +93,7 @@
     {
         "id": "caramel-cheesecake-cookie-monster.png",
         "name": "Caramel Cheesecake Cookie Monster",
-        "namePtBr": "Monstro de biscoito de cheesecake de caramelo",
+        "namePtBr": "Monstro de Biscoito de Cheesecake de Caramelo",
         "description": null,
         "calories": null
     },
@@ -114,14 +114,14 @@
     {
         "id": "chocolate-chip-cookie-dough.png",
         "name": "Chocolate Chip Cookie Dough",
-        "namePtBr": "Massa de biscoito de chocolate",
+        "namePtBr": "Massa de Biscoito de Chocolate",
         "description": null,
         "calories": null
     },
     {
         "id": "chocolate-chip.png",
         "name": "Chocolate Chip",
-        "namePtBr": "Pepita de chocolate",
+        "namePtBr": "Pepita de Chocolate",
         "description": null,
         "calories": null
     },
@@ -135,7 +135,7 @@
     {
         "id": "chocolate-marshmallow.png",
         "name": "Chocolate Marshmallow",
-        "namePtBr": "marshmallow de chocolate",
+        "namePtBr": "Marshmallow de Chocolate",
         "description": null,
         "calories": null
     },
@@ -177,21 +177,21 @@
     {
         "id": "coffeehouse-cookies-and-cream.png",
         "name": "Coffeehouse Cookies And Cream",
-        "namePtBr": "Biscoitos e creme de café",
+        "namePtBr": "Biscoitos e Creme de Café",
         "description": null,
         "calories": null
     },
     {
         "id": "cold-brewed-caramocha.png",
         "name": "Cold Brewed Caramocha",
-        "namePtBr": "Caramocha fermentada fria",
+        "namePtBr": "Caramocha Fermentada Fria",
         "description": null,
         "calories": null
     },
     {
         "id": "cookie-butter-craze.png",
         "name": "Cookie Butter Craze",
-        "namePtBr": "Mania de biscoito",
+        "namePtBr": "Mania de Biscoito",
         "description": null,
         "calories": null
     },
@@ -212,14 +212,14 @@
     {
         "id": "cookies-and-cream.png",
         "name": "Cookies And Cream",
-        "namePtBr": "Biscoitos e creme",
+        "namePtBr": "Biscoitos e Creme",
         "description": null,
         "calories": null
     },
     {
         "id": "cotton-candy.png",
         "name": "Cotton Candy",
-        "namePtBr": "Algodão doce",
+        "namePtBr": "Algodão Doce",
         "description": null,
         "calories": null
     },
@@ -240,7 +240,7 @@
     {
         "id": "french-vanilla.png",
         "name": "French Vanilla",
-        "namePtBr": "Baunilha francesa",
+        "namePtBr": "Baunilha Francesa",
         "description": null,
         "calories": null
     },
@@ -268,21 +268,21 @@
     {
         "id": "honey-roasted-peanut-butter.png",
         "name": "Honey Roasted Peanut Butter",
-        "namePtBr": "Manteiga de amendoim torrada com mel",
+        "namePtBr": "Manteiga de Amendoim Torrada com Mel",
         "description": null,
         "calories": null
     },
     {
         "id": "key-lime-pie.png",
         "name": "Key Lime Pie",
-        "namePtBr": "Torta de limão",
+        "namePtBr": "Torta de Limão",
         "description": null,
         "calories": null
     },
     {
         "id": "lemon-sorbet.png",
         "name": "Lemon Sorbet",
-        "namePtBr": "sorvete de limão",
+        "namePtBr": "Sorvete de Limão",
         "description": null,
         "calories": null
     },
@@ -310,14 +310,14 @@
     {
         "id": "low-fat-blueberry-cheesecake-yogurt.png",
         "name": "Low Fat Blueberry Cheesecake Yogurt",
-        "namePtBr": "Cheesecake de iogurte com baixo teor de gordura de mirtilo",
+        "namePtBr": "Cheesecake de Iogurte com Baixo Teor de Gordura de Mirtilo",
         "description": null,
         "calories": null
     },
     {
         "id": "low-fat-coffee-fudge-almond-fudge-yogurt.png",
         "name": "Low Fat Coffee Fudge Almond Fudge Yogurt",
-        "namePtBr": "Fudge de café com baixo teor de gordura Iogurte com fudge de amêndoa",
+        "namePtBr": "Fudge de Café com Baixo Teor de Gordura Iogurte com Fudge de Amêndoa",
         "description": null,
         "calories": null
     },
@@ -331,7 +331,7 @@
     {
         "id": "midnight-caramel-river.png",
         "name": "Midnight Caramel River",
-        "namePtBr": "Rio Caramelo da meia-noite",
+        "namePtBr": "Rio Caramelo da Meia-Noite",
         "description": null,
         "calories": null
     },
@@ -352,14 +352,14 @@
     {
         "id": "milk-cream.png",
         "name": "Milk Cream",
-        "namePtBr": "Creme de leite",
+        "namePtBr": "Creme de Leite",
         "description": null,
         "calories": null
     },
     {
         "id": "mint-moose-tracks.png",
         "name": "Mint Moose Tracks",
-        "namePtBr": "Faixas de alce de hortelã",
+        "namePtBr": "Faixas de Alce de Hortelã",
         "description": null,
         "calories": null
     },
@@ -373,28 +373,28 @@
     {
         "id": "moose-tracks.png",
         "name": "Moose Tracks",
-        "namePtBr": "trilhas de alce",
+        "namePtBr": "Trilhas de Alce",
         "description": null,
         "calories": null
     },
     {
         "id": "mystical-mermaid.png",
         "name": "Mystical Mermaid",
-        "namePtBr": "sereia mística",
+        "namePtBr": "Tereia Mística",
         "description": null,
         "calories": null
     },
     {
         "id": "no-fat-peach-yogurt.png",
         "name": "No Fat Peach Yogurt",
-        "namePtBr": "Iogurte de pêssego sem gordura",
+        "namePtBr": "Iogurte de Pêssego sem Gordura",
         "description": null,
         "calories": null
     },
     {
         "id": "no-fat-vanilla-yogurt.png",
         "name": "No Fat Vanilla Yogurt",
-        "namePtBr": "Iogurte de baunilha sem gordura",
+        "namePtBr": "Iogurte de Baunilha sem Gordura",
         "description": null,
         "calories": null
     },
@@ -422,28 +422,28 @@
     {
         "id": "oatmeal-cookie-craving.png",
         "name": "Oatmeal Cookie Craving",
-        "namePtBr": "Vontade de biscoito de aveia",
+        "namePtBr": "Vontade de Biscoito de Aveia",
         "description": null,
         "calories": null
     },
     {
         "id": "orange-blossom.png",
         "name": "Orange Blossom",
-        "namePtBr": "flores de laranjeira",
+        "namePtBr": "Flores de Laranjeira",
         "description": null,
         "calories": null
     },
     {
         "id": "orange-pineapple.png",
         "name": "Orange Pineapple",
-        "namePtBr": "laranja abacaxi",
+        "namePtBr": "Laranja Abacaxi",
         "description": null,
         "calories": null
     },
     {
         "id": "orange-sherbet.png",
         "name": "Orange Sherbet",
-        "namePtBr": "sorvete de laranja",
+        "namePtBr": "Sorvete de Laranja",
         "description": null,
         "calories": null
     },
@@ -457,14 +457,14 @@
     {
         "id": "peanut-butter-cookies-and-cream.png",
         "name": "Peanut Butter Cookies And Cream",
-        "namePtBr": "Cookies e creme de manteiga de amendoim",
+        "namePtBr": "Cookies e Creme de Manteiga de Amendoim",
         "description": null,
         "calories": null
     },
     {
         "id": "peanut-butter-cup.png",
         "name": "Peanut Butter Cup",
-        "namePtBr": "copo de manteiga de amendoim",
+        "namePtBr": "Copo de Manteiga de Amendoim",
         "description": null,
         "calories": null
     },
@@ -478,7 +478,7 @@
     {
         "id": "pistach.png",
         "name": "Pistach",
-        "namePtBr": "pistache",
+        "namePtBr": "Pistache",
         "description": null,
         "calories": null
     },
@@ -492,7 +492,7 @@
     {
         "id": "playdough.png",
         "name": "Playdough",
-        "namePtBr": "Massa de modelar",
+        "namePtBr": "Massa de Modelar",
         "description": null,
         "calories": null
     },
@@ -506,14 +506,14 @@
     {
         "id": "rainbow-sherbet.png",
         "name": "Rainbow Sherbet",
-        "namePtBr": "sorvete de arco-íris",
+        "namePtBr": "Sorvete de Arco-Íris",
         "description": null,
         "calories": null
     },
     {
         "id": "raspberry-sorbet.png",
         "name": "Raspberry Sorbet",
-        "namePtBr": "Sorbet de framboesa",
+        "namePtBr": "Sorbet de Framboesa",
         "description": null,
         "calories": null
     },
@@ -527,7 +527,7 @@
     {
         "id": "red-fruits.png",
         "name": "Red Fruits",
-        "namePtBr": "Frutas vermelhas",
+        "namePtBr": "Frutas Vermelhas",
         "description": null,
         "calories": null
     },
@@ -541,14 +541,14 @@
     {
         "id": "rocky-road.png",
         "name": "Rocky Road",
-        "namePtBr": "Estrada rochosa",
+        "namePtBr": "Estrada Rochosa",
         "description": null,
         "calories": null
     },
     {
         "id": "rum-raisin.png",
         "name": "Rum Raisin",
-        "namePtBr": "Passas ao rum",
+        "namePtBr": "Passas ao Rum",
         "description": null,
         "calories": null
     },
@@ -569,21 +569,21 @@
     {
         "id": "sea-salted-caramel-cookies-and-cream.png",
         "name": "Sea Salted Caramel Cookies And Cream",
-        "namePtBr": "Biscoitos e creme de caramelo salgado do mar",
+        "namePtBr": "Biscoitos e Creme de Caramelo Salgado do Mar",
         "description": null,
         "calories": null
     },
     {
         "id": "strawberry-cheesecake.png",
         "name": "Strawberry Cheesecake",
-        "namePtBr": "Cheesecake de morango",
+        "namePtBr": "Cheesecake de Morango",
         "description": null,
         "calories": null
     },
     {
         "id": "strawberry-fields.png",
         "name": "Strawberry Fields",
-        "namePtBr": "Campos de morango",
+        "namePtBr": "Campos de Morango",
         "description": null,
         "calories": null
     },
@@ -597,7 +597,7 @@
     {
         "id": "superman.png",
         "name": "Superman",
-        "namePtBr": "Super homen",
+        "namePtBr": "Super Homen",
         "description": null,
         "calories": null
     },
