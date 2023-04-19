@@ -121,36 +121,41 @@ export default function FlavorsPage() {
 								src={createStorageBucketUrl(flavor.id)}
 								width={280}
 							/>
-							<span className="text-white font-semibold text-center block">{flavor.namePtBr}</span>
+							<span className="text-white font-medium text-center block">{flavor.namePtBr}</span>
 						</div>
 					))}
 				</div>
-				<div className="w-[600px] h-[100vh] bg-secondary sticky right-0 top-[5rem]">
+				<div className="w-[600px] h-[93vh] pb-5 bg-secondary sticky right-0 top-[5rem] flex flex-col">
 					{flavors
 						.filter((flavor) => flavor.selected)
 						.map((flavor, index) => (
-							<Image
-								alt={flavor.name}
-								className="absolute m-auto mb-0 center-ice-cream-ball xl:right-[6.5rem] 2xl:right-20"
-								height={selectedIceCreamSize ?? 300}
+							<div
+								className={index === 0 ? 'mb-[-75px]' : 'my-[-75px]'}
 								key={flavor.id}
-								loading="lazy"
-								src={createStorageBucketUrl(flavor.id)}
 								style={{
-									bottom: `${iceCreamBallsFormula?.(index)}px`,
+									zIndex: -1 * index + 4,
 								}}
-								width={selectedIceCreamSize ?? 300}
-							/>
+							>
+								<Image
+									alt={flavor.name}
+									className="mx-auto mb[-10px]"
+									height={selectedIceCreamSize ?? 300}
+									key={flavor.id}
+									loading="lazy"
+									src={createStorageBucketUrl(flavor.id)}
+									width={selectedIceCreamSize ?? 300}
+								/>
+							</div>
 						))}
 					<Image
 						alt="Ice Cream Cone"
-						className="m-auto xl:mt-[16rem] 2xl:mt-[25rem]"
+						className={selectedCount() ? 'm-auto mt-[-20px]' : 'm-auto'}
 						height={coneSize ?? 200}
 						loading="lazy"
 						src="/ice-cream-cone.png"
 						width={coneSize ?? 200}
 					/>
-					<div className="absolute bottom-20 w-full flex flex-row justify-center items-center gap-4">
+					<div className="w-full flex flex-row justify-center items-center gap-4">
 						<div className="flex flex-row justify-center items-center px-3 py-2 mb-3 border border-dashed border-primary rounded-xl text-primary font-bold">
 							<div
 								className={`w-8 h-8 rounded-full border-2 border-primary mx-1 ${

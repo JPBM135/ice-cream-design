@@ -57,11 +57,11 @@ export function Header({ allowBiggerLogo = true }: { allowBiggerLogo?: boolean }
 	].sort((a, b) => a.localeCompare(b));
 
 	return (
-		<div className="flex items-center justify-between px-10 py-5 w-full bg-bg_color_tertiary sticky top-0">
+		<div className="flex items-center justify-between px-10 py-5 w-full bg-bg_color_tertiary sticky top-0 z-50">
 			<div className="flex items-center space-x-4 w-[30rem]">
 				<nav className="flex space-x-4 gap-5">
 					<Link
-						className={`text-white font-semibold hover:border-b-primary flex pb-2 border-b-white border-b ${
+						className={`text-white hover:border-b-primary flex pb-2 border-b-white border-b ${
 							isSelected('/store', router) ? glowTailwindClass : ''
 						}`}
 						href="/store"
@@ -71,7 +71,7 @@ export function Header({ allowBiggerLogo = true }: { allowBiggerLogo?: boolean }
 						Nossa Loja
 					</Link>
 					<Link
-						className={`text-white font-semibold hover:border-b-primary flex pb-2 border-b-white border-b ${
+						className={`text-white hover:border-b-primary flex pb-2 border-b-white border-b ${
 							isSelected('/about', router) ? glowTailwindClass : ''
 						}`}
 						href="/about"
@@ -81,7 +81,7 @@ export function Header({ allowBiggerLogo = true }: { allowBiggerLogo?: boolean }
 						Sobre Nós
 					</Link>
 					<Link
-						className={`text-white font-semibold hover:border-b-primary flex pb-2 border-b-white border-b ${
+						className={`text-white hover:border-b-primary flex pb-2 border-b-white border-b ${
 							isSelected('/flavors', router) ? glowTailwindClass : ''
 						}`}
 						href="/flavors"
@@ -121,7 +121,7 @@ export function Header({ allowBiggerLogo = true }: { allowBiggerLogo?: boolean }
 			<div className="flex items-center space-x-4 justify-end w-[30rem]">
 				<nav className="flex space-x-4 gap-5">
 					<Link
-						className="text-white font-semibold hover:border-b-primary flex pb-2 border-b-white border-b"
+						className="text-white hover:border-b-primary flex pb-2 border-b-white border-b"
 						href="https://github.com/JPBM135/ice-cream-design"
 						rel="noopener noreferrer"
 						target="_blank"
@@ -131,7 +131,7 @@ export function Header({ allowBiggerLogo = true }: { allowBiggerLogo?: boolean }
 						GitHub
 					</Link>
 					<div
-						className={`cursor-pointer text-white font-semibold hover:border-b-primary flex pb-2 border-b-white border-b ${
+						className={`cursor-pointer text-white hover:border-b-primary flex pb-2 border-b-white border-b ${
 							studentsOpen ? glowTailwindClass : ''
 						}`}
 						onClick={() => setStudentsOpen(!studentsOpen)}
