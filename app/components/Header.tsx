@@ -8,6 +8,7 @@ import {
 	GitBranch,
 	UsersThree,
 	IdentificationCard,
+	Basket,
 } from '@phosphor-icons/react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -23,9 +24,8 @@ function isSelected(path: string, pathname: string | null): boolean {
 export function Header({ allowBiggerLogo = true }: { allowBiggerLogo?: boolean }): JSX.Element {
 	const [studentsOpen, setStudentsOpen] = useState(false);
 	const [logoType, setLogoType] = useState<'big' | 'small'>(allowBiggerLogo ? 'big' : 'small');
-	const [opacity, setOpacity] = useState(1);
 
-	const router = usePathname();
+	const path = usePathname();
 
 	const glowTailwindClass = 'text-secondary glow';
 
@@ -37,8 +37,6 @@ export function Header({ allowBiggerLogo = true }: { allowBiggerLogo?: boolean }
 				} else {
 					setLogoType('big');
 				}
-
-				setOpacity(window.scrollY / 100);
 			};
 
 			window.addEventListener('scroll', onScroll);
@@ -57,12 +55,12 @@ export function Header({ allowBiggerLogo = true }: { allowBiggerLogo?: boolean }
 	].sort((a, b) => a.localeCompare(b));
 
 	return (
-		<div className="flex items-center justify-between px-10 py-5 w-full bg-bg_color_tertiary sticky top-0 z-50">
-			<div className="flex items-center space-x-4 w-[30rem]">
+		<div className="px-10 py-5 w-full flex items-center justify-between bg-bg_color_tertiary sticky top-0 z-50">
+			<div className="flex items-center space-x-4 w-[40rem]">
 				<nav className="flex space-x-4 gap-5">
 					<Link
 						className={`text-white hover:border-b-primary flex pb-2 border-b-white border-b ${
-							isSelected('/store', router) ? glowTailwindClass : ''
+							isSelected('/store', path) ? glowTailwindClass : ''
 						}`}
 						href="/store"
 					>
@@ -72,7 +70,7 @@ export function Header({ allowBiggerLogo = true }: { allowBiggerLogo?: boolean }
 					</Link>
 					<Link
 						className={`text-white hover:border-b-primary flex pb-2 border-b-white border-b ${
-							isSelected('/about', router) ? glowTailwindClass : ''
+							isSelected('/about', path) ? glowTailwindClass : ''
 						}`}
 						href="/about"
 					>
@@ -82,41 +80,40 @@ export function Header({ allowBiggerLogo = true }: { allowBiggerLogo?: boolean }
 					</Link>
 					<Link
 						className={`text-white hover:border-b-primary flex pb-2 border-b-white border-b ${
-							isSelected('/flavors', router) ? glowTailwindClass : ''
+							isSelected('/flavors', path) ? glowTailwindClass : ''
 						}`}
 						href="/flavors"
 					>
-						<IceCream size={24} weight="bold" />
+						<Basket size={24} weight="bold" />
 						<VerticalDivider />
 						Sabores
+					</Link>
+					<Link
+						className={`text-white hover:border-b-primary flex pb-2 border-b-white border-b ${
+							isSelected('/make-your', path) ? glowTailwindClass : ''
+						}`}
+						href="/make-your"
+					>
+						<IceCream size={24} weight="bold" />
+						<VerticalDivider />
+						Monte o seu
 					</Link>
 				</nav>
 			</div>
 			{useMemo(
 				() =>
-					logoType === 'big' ? (
-						<Link href="/">
-							<Image
-								alt="Authentic Gourmet Logo"
-								className={`absolute top-[-50%] left-0 right-0 opacity-[${opacity}] mx-auto bg-bg_color_tertiary rounded-b-full transition-opacity duration-1000`}
-								height={400}
-								src="/logo.png"
-								width={400}
-							/>
-						</Link>
-					) : (
+					logoType === 'small' && (
 						<Link href="/">
 							<Image
 								alt="Authentic Gourmet Logo"
 								className="transition-opacity duration-1000"
 								height={220}
 								src="/logo-tape.png"
-								style={{ opacity }}
 								width={220}
 							/>
 						</Link>
 					),
-				[logoType, opacity],
+				[logoType],
 			)}
 			<div className="flex items-center space-x-4 justify-end w-[30rem]">
 				<nav className="flex space-x-4 gap-5">
