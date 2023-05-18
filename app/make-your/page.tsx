@@ -14,6 +14,7 @@ const MAX_SELECTED = 4;
 const allowedIceCreamCones = ['ice-cream-cone.png', 'ice-cream-cone-choco.png', 'ice-cream-cone-berry.png'];
 
 interface Flavor {
+	allergens?: string[] | null;
 	calories: number | null;
 	description: string | null;
 	id: string;
@@ -24,7 +25,7 @@ interface Flavor {
 
 export default function FlavorsPage() {
 	const [flavors, setFlavors] = useState<Flavor[]>(
-		rawFlavors.map<Flavor>((flavor) => ({ ...flavor, selected: false })),
+		rawFlavors.map<Flavor>((flavor) => ({ ...flavor, selected: false } as Flavor)),
 	);
 
 	const [iceCreamConeIndex, setIceCreamConeIndex] = useState<number>(0);
