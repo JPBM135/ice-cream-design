@@ -3,323 +3,492 @@
         "id": "banana-cake.png",
         "name": "Banana Cake",
         "namePtBr": "Bolo de Banana",
-        "description": null,
-        "calories": null
+        "description": "Sorvete de Banana Deliciosamente Refrescante. Aproveite o sabor cremoso e suave das bananas maduras em cada colherada desse sorvete tropical. A doçura natural da banana é uma verdadeira delícia gelada para os dias quentes. Experimente o prazer refrescante do sorvete de banana e deixe seu paladar se encantar.",
+        "calories": 290,
+        "combinesWith": [],
+        "allergens": [
+            "gluten",
+            "milk",
+            "egg"
+        ]
     },
     {
         "id": "banana-pudding.png",
         "name": "Banana Pudding",
         "namePtBr": "Pudim de Banana",
-        "description": null,
-        "calories": null
+        "description": "Uma sobremesa cremosa e reconfortante que combina o sabor doce das bananas maduras com a textura suave do pudim. Delicie-se com cada colherada desse prazer delicioso e deixe a doçura da banana envolver seu paladar. Uma opção perfeita para os amantes de sobremesas simplesmente irresistíveis.",
+        "calories": 290,
+        "combinesWith": [],
+        "allergens": [
+            "gluten",
+            "milk",
+            "egg"
+        ]
     },
     {
         "id": "berries-and-the-beach-yogurt.png",
         "name": "Berries And The Beach Yogurt",
         "namePtBr": "Bagas e o Iogurte de Praia",
-        "description": null,
-        "calories": null
+        "description": "Uma combinação refrescante e saudável que une o sabor vibrante das bagas com a cremosidade do iogurte. As bagas frescas, como morangos, mirtilos e framboesas, trazem uma explosão de sabores e um toque naturalmente doce.",
+        "calories": 290,
+        "combinesWith": [],
+        "allergens": [
+            "milk",
+            "egg"
+        ]
     },
     {
         "id": "better-brownie-batter.png",
         "name": "Better Brownie Batter",
         "namePtBr": "Melhor Massa de Brownie",
-        "description": null,
-        "calories": null
+        "description": "A melhor massa de brownie é densa, úmida e decadente. Com um exterior levemente crocante e um interior derretido, é uma explosão de sabor intenso e chocolateado. Cada mordida é uma indulgência irresistível que vai deixar você desejando mais.",
+        "calories": 290,
+        "combinesWith": [],
+        "allergens": [
+            "milk",
+            "egg"
+        ]
     },
     {
         "id": "birthday-batter.png",
         "name": "Birthday Batter",
         "namePtBr": "Massa de Aniversário",
-        "description": null,
-        "calories": null
+        "description": "O bolo de aniversário é a estrela das comemorações, trazendo alegria e celebração. Com várias camadas de massa macia e recheios saborosos, é uma explosão de sabores em cada mordida. Decorado com carinho e velas, é o símbolo perfeito para festejar momentos especiais.",
+        "calories": 350,
+        "allergens": [
+            "gluten",
+            "egg",
+            "milk"
+        ]
     },
     {
         "id": "birthday-cake.png",
         "name": "Birthday Cake",
         "namePtBr": "Bolo de Aniversário",
-        "description": null,
-        "calories": null
+        "description": "Sorvete com um sabor de bolo de aniversário e pedaços de bolo de aniversário",
+        "calories": 290,
+        "combinesWith": [],
+        "allergens": [
+            "gluten",
+            "milk",
+            "egg"
+        ]
     },
     {
         "id": "black-cherry.png",
         "name": "Black Cherry",
         "namePtBr": "Cereja Preta",
-        "description": null,
-        "calories": null
+        "description": "Cereja Preta é um sabor rico e indulgente de sorvete que cativa com sua mistura deliciosa de cerejas profundas e escuras. Cada colherada é uma sinfonia encantadora de sabores doces e levemente ácidos, equilibrados perfeitamente para criar uma experiência de sabor celestial.",
+        "calories": 200,
+        "allergens": [
+            "milk"
+        ]
     },
     {
         "id": "black-walnut.png",
         "name": "Black Walnut",
         "namePtBr": "Noz Preta",
-        "description": null,
-        "calories": null
+        "description": "Nosso sorvete de noz preta é a escolha perfeita para os amantes de sabores intensos. As nozes pretas são cuidadosamente moídas e incorporadas a uma base de sorvete rica e cremosa, resultando em uma textura suave e um sabor irresistível. Com suas notas tostadas e levemente amadeiradas, esse sorvete proporciona uma experiência gustativa única. Desfrute de cada colherada desse deleite indulgente!",
+        "calories": 280,
+        "allergens": [
+            "milk",
+            "tree nuts"
+        ]
     },
     {
         "id": "blue-moon.png",
         "name": "Blue Moon",
-        "namePtBr": "Lua Azul",
-        "description": null,
-        "calories": null
+        "description": "Descubra a mágica do nosso sorvete de Lua Azul. Com sua cor vibrante e sabor único, esse sorvete é uma verdadeira explosão de sabores frutados e refrescantes. A Lua Azul é uma combinação especial de frutas tropicais exóticas, que resulta em um sorvete surpreendente e irresistível. Deleite-se com cada colherada e deixe-se levar pela magia dessa experiência gelada!",
+        "calories": 180,
+        "allergens": []
     },
     {
         "id": "brown-butter-bourbon-truffle.png",
         "name": "Brown Butter Bourbon Truffle",
         "namePtBr": "Trufa Bourbon Manteiga Marrom",
-        "description": null,
-        "calories": null
+        "description": "Delicie-se com a indulgência do nosso sorvete de Trufa Bourbon Manteiga Marrom. Feito com a combinação perfeita de trufas de chocolate, saboroso bourbon e uma cremosa base de sorvete, essa criação é um verdadeiro deleite para os amantes de sabores intensos. A manteiga marrom adiciona uma nota suave e aveludada, aprimorando ainda mais a experiência. Cada colherada desse sorvete é uma viagem de sabor que irá satisfazer seus desejos mais requintados. Aproveite esse luxo gelado!",
+        "calories": 300,
+        "allergens": [
+            "milk"
+        ]
     },
     {
         "id": "butter-pecan.png",
         "name": "Butter Pecan",
         "namePtBr": "Manteiga de Amendoim",
-        "description": null,
-        "calories": null
+        "description": "Experimente a irresistível cremosidade do nosso sorvete de Manteiga de Amendoim. Feito com uma generosa quantidade de manteiga de amendoim cremosa e suave, esse sorvete é um verdadeiro deleite para os amantes dessa deliciosa pasta de amendoim. Cada colherada desse sorvete combina o sabor rico e encorpado da manteiga de amendoim com a suavidade da base de sorvete, criando uma experiência de sabor que vai deixar você desejando mais. Aproveite esse prazer gelado e deixe-se envolver pelo sabor marcante da Manteiga de Amendoim!",
+        "calories": 220,
+        "allergens": [
+            "milk",
+            "peanuts"
+        ]
     },
     {
         "id": "candy-bar-overload.png",
         "name": "Candy Bar Overload",
         "namePtBr": "Sobrecarga de Barra de Chocolate",
-        "description": null,
-        "calories": null
+        "description": "Prepare-se para uma experiência intensa com a Sobrecarga de Barra de Chocolate. Esta sobremesa decadente é uma combinação perfeita de camadas de bolo de chocolate rico e fudgy, recheadas com pedaços generosos de barra de chocolate derretido. A cobertura cremosa de chocolate envolve cada mordida, proporcionando uma explosão de sabor irresistível. Cada garfada dessa sobremesa é uma jornada indulgente para os amantes de chocolate. Renda-se aos seus desejos e saboreie essa tentação celestial!",
+        "calories": 400,
+        "allergens": [
+            "milk",
+            "gluten"
+        ]
     },
     {
         "id": "cappuccino-crunch.png",
         "name": "Cappuccino Crunch",
         "namePtBr": "Crocante de Capuccino",
-        "description": null,
-        "calories": null
+        "description": "Desperte seus sentidos com o sorvete de Crocante de Capuccino. Essa deliciosa criação combina a suavidade do capuccino com a crocância de pedaços de biscoito. Cada colherada desse sorvete é uma experiência perfeita de texturas e sabores. A base de sorvete de capuccino é enriquecida com notas de café e um toque de especiarias, criando um sabor único e envolvente. Os pedaços crocantes de biscoito adicionam um contraste irresistível. Aproveite cada momento de prazer com esse sorvete deliciosamente crocante!",
+        "calories": 230,
+        "allergens": [
+            "milk",
+            "wheat"
+        ]
     },
     {
         "id": "caramel-cheesecake-cookie-monster.png",
         "name": "Caramel Cheesecake Cookie Monster",
         "namePtBr": "Monstro de Biscoito de Cheesecake de Caramelo",
-        "description": null,
-        "calories": null
+        "description": "Descubra o delicioso Monstro de Biscoito de Cheesecake de Caramelo. Essa sobremesa irresistível combina o sabor clássico do cheesecake com a indulgência de biscoitos de chocolate e o toque sedutor do caramelo. Cada colherada desse sorvete é uma explosão de sabores: o cheesecake cremoso e levemente ácido se funde com os pedaços crocantes de biscoito e a doçura envolvente do caramelo. Deleite-se com a combinação perfeita entre o cheesecake e o biscoito, acompanhada de um toque luxuoso de caramelo. Satisfaça seus desejos com esse verdadeiro monstro de sabor!",
+        "calories": 280,
+        "allergens": [
+            "milk",
+            "wheat"
+        ]
     },
     {
         "id": "cheesecake-euphoria-yogurt.png",
         "name": "Cheesecake Euphoria Yogurt",
         "namePtBr": "Cheesecake Euforia Iogurte",
-        "description": null,
-        "calories": null
+        "description": "Experimente a deliciosa combinação de sabores no sorvete de Cheesecake Euforia Iogurte. Essa criação única une a suavidade e a leveza do iogurte com a indulgência e o sabor clássico do cheesecake. Cada colherada desse sorvete é uma experiência de sabores equilibrados, onde a doçura do cheesecake se mistura harmoniosamente com a acidez refrescante do iogurte. Deleite-se com a textura cremosa e o sabor envolvente dessa sobremesa que combina o melhor de dois mundos. Permita-se desfrutar da Euforia do Cheesecake Iogurte!",
+        "calories": 220,
+        "allergens": [
+            "milk"
+        ]
     },
     {
         "id": "choco-mint.png",
         "name": "Choco Mint",
         "namePtBr": "Choco Menta",
-        "description": null,
-        "calories": null
+        "description": "Descubra a combinação irresistível de chocolate e menta no sorvete Choco Menta. Cada colherada desse sorvete é uma verdadeira explosão de sabores intensos. O delicioso chocolate derretido se mescla harmoniosamente com a refrescância da menta, criando uma experiência gelada que agrada aos amantes desses dois sabores clássicos. Deleite-se com a textura cremosa e o equilíbrio perfeito entre a doçura do chocolate e a nota refrescante da menta. Satisfaça seus desejos com esse sorvete que proporciona uma deliciosa e refrescante combinação!",
+        "calories": 250,
+        "allergens": [
+            "milk"
+        ]
     },
     {
         "id": "chocolate-chip-cookie-dough.png",
         "name": "Chocolate Chip Cookie Dough",
         "namePtBr": "Massa de Biscoito de Chocolate",
-        "description": null,
-        "calories": null
+        "description": "Delicie-se com a massa de biscoito de chocolate, uma tentação irresistível para os amantes de chocolate. Essa massa é feita com uma combinação perfeita de ingredientes de alta qualidade, resultando em um sabor rico e intenso de chocolate. Cada pedaço dessa massa é macio, com uma textura levemente crocante, e está repleto de pedacinhos de biscoito de chocolate que adicionam um toque adicional de indulgência. Saboreie essa delícia por si só ou use-a como base para sobremesas, criando combinações infinitas. Permita-se render aos prazeres do chocolate com a massa de biscoito de chocolate!",
+        "calories": 180,
+        "allergens": [
+            "wheat",
+            "soy"
+        ]
     },
     {
         "id": "chocolate-chip.png",
         "name": "Chocolate Chip",
         "namePtBr": "Pepita de Chocolate",
-        "description": null,
-        "calories": null
+        "description": "Experimente a irresistível bola de sorvete de Pepita de Chocolate. Cada mordida dessa bola de sorvete é uma explosão de sabor e textura. O sorvete cremoso de chocolate envolve delicadamente as pepitas de chocolate crocantes, criando uma combinação perfeita de suavidade e crocância. A intensidade do sabor do chocolate proporciona uma experiência indulgente para os amantes de chocolate. Deleite-se com cada colherada dessa bola de sorvete que é pura tentação. Satisfaça seus desejos com essa bola de sorvete de Pepita de Chocolate!",
+        "calories": 150,
+        "allergens": [
+            "milk",
+            "soy"
+        ]
     },
     {
         "id": "chocolate-extreme.png",
         "name": "Chocolate Extreme",
         "namePtBr": "Chocolate Extremo",
-        "description": null,
-        "calories": null
+        "description": "Desfrute do sorvete de Chocolate Extremo, uma verdadeira explosão de sabor para os amantes de chocolate. Cada colherada desse sorvete é uma experiência indulgente e intensamente deliciosa. O sorvete de chocolate cremoso derrete suavemente na boca, liberando todo o seu sabor rico e irresistível. As lascas de chocolate adicionam textura e proporcionam momentos de prazer crocante. Satisfaça seus desejos por chocolate com esse sorvete que combina suavidade, intensidade e prazer em cada mordida.",
+        "calories": 200,
+        "allergens": [
+            "milk",
+            "soy"
+        ]
     },
     {
         "id": "chocolate-marshmallow.png",
         "name": "Chocolate Marshmallow",
         "namePtBr": "Marshmallow de Chocolate",
-        "description": null,
-        "calories": null
+        "description": "Saboreie o sorvete de Marshmallow de Chocolate e mergulhe em uma experiência de doçura e textura suave. Cada colherada desse sorvete é um deleite para os amantes de chocolate e marshmallow. O sorvete cremoso de chocolate envolve seu paladar, enquanto suaves pedaços de marshmallow derretem suavemente, adicionando um toque aveludado. A combinação perfeita entre o chocolate e o marshmallow cria uma sensação indulgente e reconfortante a cada mordida. Aproveite o equilíbrio perfeito entre a doçura do chocolate e a maciez do marshmallow nessa bola de sorvete irresistível.",
+        "calories": 180,
+        "allergens": [
+            "milk"
+        ]
     },
     {
         "id": "chocolate-moose-tracks.png",
         "name": "Chocolate Moose Tracks",
         "namePtBr": "Rastos de Alces de Chocolate",
-        "description": null,
-        "calories": null
+        "description": "Explore a deliciosa combinação de sabores e texturas do sorvete Rastos de Alces de Chocolate. Cada colherada desse sorvete é uma aventura para os amantes de chocolate. O sorvete de chocolate cremoso é repleto de pedaços generosos de chocolate em formato de rastos de alces, adicionando uma divertida surpresa a cada mordida. A harmonia entre a cremosidade do sorvete e a crocância dos pedaços de chocolate cria uma experiência única e satisfatória. Satisfaça seus desejos por chocolate e embarque em uma jornada de sabor com esse sorvete de Rastos de Alces de Chocolate.",
+        "calories": 220,
+        "allergens": [
+            "milk",
+            "soy"
+        ]
     },
     {
         "id": "chocolate.png",
         "name": "Chocolate",
-        "namePtBr": "Chocolate",
-        "description": null,
-        "calories": null
+        "namePtBr": "Chocolate Belga",
+        "description": "Desfrute do sorvete de Chocolate Belga, uma verdadeira indulgência para os amantes de chocolate. Cada colherada desse sorvete é uma experiência luxuosa e sofisticada. Feito com autêntico chocolate belga de alta qualidade, o sorvete possui um sabor rico e equilibrado. Sua textura é cremosa e derrete suavemente na boca, permitindo que você aprecie cada nota de sabor. Deleite-se com a intensidade e a suavidade do chocolate belga nessa bola de sorvete irresistível. Satisfaça seus desejos por chocolate com essa experiência de indulgência pura.",
+        "calories": 190,
+        "allergens": [
+            "milk",
+            "soy"
+        ]
     },
     {
         "id": "coconut-chocolate-almond.png",
         "name": "Coconut Chocolate Almond",
         "namePtBr": "Coco Chocolate Amêndoa",
-        "description": null,
-        "calories": null
+        "description": "Delicie-se com o sorvete de Coco Chocolate Amêndoa, uma combinação perfeita de sabores exóticos e texturas irresistíveis. Cada colherada desse sorvete é uma viagem aos trópicos. O sorvete de coco cremoso envolve seu paladar, enquanto os pedaços generosos de chocolate e amêndoa adicionam crocância e sabor delicioso. A doçura suave do coco se equilibra harmoniosamente com a intensidade do chocolate e o toque levemente crocante das amêndoas. Desfrute dessa experiência única que une o frescor do coco, a riqueza do chocolate e a crocância das amêndoas em cada mordida.",
+        "calories": 180,
+        "allergens": [
+            "tree nuts",
+            "milk",
+            "soy"
+        ]
     },
     {
         "id": "coconut.png",
         "name": "Coconut",
         "namePtBr": "Coco",
-        "description": null,
-        "calories": null
+        "description": "Aproveite o sorvete de Coco e deixe-se levar pelos sabores tropicais e refrescantes. Cada colherada desse sorvete é como uma escapada para uma praia paradisíaca. O sorvete de coco cremoso envolve seu paladar, proporcionando uma sensação suave e agradável. O sabor do coco é autêntico e delicioso, trazendo a doçura e a frescura dos coqueiros. Desfrute desse sorvete leve e refrescante, perfeito para os amantes de coco. Com cada mordida, você será transportado para um momento de relaxamento e prazer tropical.",
+        "calories": 150,
+        "allergens": [
+            "milk"
+        ]
     },
     {
         "id": "coffee.png",
         "name": "Coffee",
         "namePtBr": "Café",
-        "description": null,
-        "calories": null
+        "description": "Desperte seus sentidos com o sorvete de Café, uma deliciosa combinação de sabor e energia. Cada colherada desse sorvete é uma experiência estimulante para os amantes de café. O sorvete cremoso de café envolve seu paladar, proporcionando um sabor rico e encorpado. A intensidade do café se equilibra perfeitamente com a doçura do sorvete, criando uma harmonia de sabores. Aproveite esse sorvete como uma pausa revigorante em um dia quente ou como um acompanhamento perfeito para uma sobremesa especial. Deleite-se com o prazer do café em forma de sorvete.",
+        "calories": 160,
+        "allergens": [
+            "milk"
+        ]
     },
     {
         "id": "coffeehouse-cookies-and-cream.png",
         "name": "Coffeehouse Cookies And Cream",
         "namePtBr": "Biscoitos e Creme de Café",
-        "description": null,
-        "calories": null
+        "description": "Delicie-se com o sorvete de Biscoitos e Creme de Café, uma combinação irresistível de sabores clássicos. Cada colherada desse sorvete é uma viagem ao mundo dos biscoitos e do café. O sorvete cremoso de creme de café envolve seu paladar com um sabor rico e suave. Os pedaços crocantes de biscoitos adicionam uma textura deliciosa e um toque de doçura. A harmonia entre o creme de café e os biscoitos cria uma experiência única e indulgente. Aproveite esse sorvete como um momento de prazer e conforto, onde o café encontra os biscoitos em uma combinação perfeita.",
+        "calories": 190,
+        "allergens": [
+            "milk",
+            "wheat"
+        ]
     },
     {
         "id": "cold-brewed-caramocha.png",
         "name": "Cold Brewed Caramocha",
         "namePtBr": "Caramocha Fermentada Fria",
-        "description": null,
-        "calories": null
+        "description": "Experimente o sorvete de Caramocha Fermentada Fria e mergulhe em uma mistura única de sabores ousados. Cada colherada desse sorvete é uma combinação perfeita de caramelo, chocolate e café fermentado. O sorvete cremoso de caramelo tem um sabor rico e doce, enquanto os flocos de chocolate proporcionam um toque de indulgência. O café fermentado adiciona uma nota de intensidade e complexidade, elevando a experiência de sabor. Desfrute dessa fusão ousada e sofisticada de sabores em cada mordida. Prepare-se para uma experiência gelada e saborosa com o sorvete de Caramocha Fermentada Fria.",
+        "calories": 200,
+        "allergens": [
+            "milk"
+        ]
     },
     {
         "id": "cookie-butter-craze.png",
         "name": "Cookie Butter Craze",
         "namePtBr": "Mania de Biscoito",
-        "description": null,
-        "calories": null
+        "description": "Satisfaça sua mania por biscoitos com o sorvete de Mania de Biscoito. Cada colherada desse sorvete é uma explosão de sabor e texturas irresistíveis. O sorvete cremoso combina o sabor clássico dos biscoitos com a suavidade e doçura do sorvete. Os pedaços generosos de biscoitos adicionam uma crocância deliciosa a cada mordida. Desfrute dessa experiência indulgente que traz à vida a combinação perfeita entre sorvete e biscoitos. Deixe-se levar pela mania de biscoito e desfrute de momentos de prazer a cada colherada.",
+        "calories": 180,
+        "allergens": [
+            "milk",
+            "wheat"
+        ]
     },
     {
         "id": "cookie-doughlicious.png",
         "name": "Cookie Doughlicious",
-        "namePtBr": "Cookie Doughlicious",
-        "description": null,
-        "calories": null
+        "namePtBr": "Cookie Deliciosamente Massa-licioso",
+        "description": "Prepare-se para uma explosão de sabor com o sorvete de Cookie Deliciosamente Massa-licioso. Cada colherada desse sorvete é uma jornada pelos prazeres da massa de cookie. O sorvete cremoso envolve seu paladar, enquanto os pedaços generosos de massa de cookie adicionam uma textura incrível e um sabor delicioso. Cada mordida é como saborear um cookie recém-saído do forno. Deleite-se com a combinação perfeita entre a suavidade do sorvete e a riqueza da massa de cookie, criando uma experiência inesquecível para os amantes de cookies. Desfrute desse momento indulgente e deixe-se levar pelo sabor irresistível do Cookie Deliciosamente Massa-licioso.",
+        "calories": 200,
+        "allergens": [
+            "milk",
+            "wheat",
+            "egg"
+        ]
     },
     {
         "id": "cookie.png",
         "name": "Cookie",
         "namePtBr": "Biscoito",
-        "description": null,
-        "calories": null
+        "description": "Desfrute do clássico sabor de Biscoito com este sorvete delicioso. Cada colherada deste sorvete é uma combinação perfeita de doçura e textura crocante. O sorvete cremoso envolve seu paladar, enquanto os pedaços generosos de biscoito adicionam uma camada crocante e cheia de sabor. Aproveite este sorvete como uma verdadeira indulgência, levando você de volta aos sabores familiares e reconfortantes dos biscoitos caseiros. A cada mordida, você vai saborear a perfeita harmonia entre o sorvete e o biscoito. Deleite-se com a nostalgia e o prazer do sorvete de Biscoito.",
+        "calories": 170,
+        "allergens": [
+            "milk",
+            "wheat"
+        ]
     },
     {
         "id": "cookies-and-cream.png",
         "name": "Cookies And Cream",
         "namePtBr": "Biscoitos e Creme",
-        "description": null,
-        "calories": null
+        "description": "Experimente o clássico sabor de Biscoitos e Creme neste delicioso sorvete. Cada colherada é uma mistura perfeita de suavidade e crocância. O sorvete cremoso de creme envolve seu paladar com sua textura suave e sabor delicado. Os pedaços de biscoitos adicionam uma camada de crocância e um toque irresistível de doçura. A combinação harmoniosa entre o creme e os biscoitos cria uma experiência de sabor única e deliciosa. Desfrute deste sorvete como uma indulgência especial, transportando você para momentos de prazer e nostalgia. Permita-se saborear a perfeita combinação de Biscoitos e Creme em cada colherada.",
+        "calories": 190,
+        "allergens": [
+            "milk",
+            "wheat"
+        ]
     },
     {
         "id": "cotton-candy.png",
         "name": "Cotton Candy",
         "namePtBr": "Algodão Doce",
-        "description": null,
-        "calories": null
+        "description": "Deleite-se com o encanto do sorvete de Algodão Doce. Cada colherada é uma explosão de doçura e diversão. Este sorvete traz a nostalgia da feira e o sabor característico do algodão doce. O sorvete é suave e cremoso, lembrando as nuvens doces que derretem na boca. A textura leve e o sabor açucarado irão transportá-lo para um mundo de alegria e felicidade. Aproveite a magia do sorvete de Algodão Doce e deixe-se envolver pela doçura desta deliciosa sobremesa.",
+        "calories": 160,
+        "allergens": [
+            "milk"
+        ]
     },
     {
         "id": "crazy-vanilla.png",
         "name": "Crazy Vanilla",
         "namePtBr": "Baunilha Louca",
-        "description": null,
-        "calories": null
+        "description": "Deixe-se levar pela loucura da baunilha com este sorvete delicioso. Cada colherada é uma explosão de sabor e textura que irá enlouquecer seus sentidos. O sorvete de baunilha é cremoso e suave, com um aroma irresistível. As nuances da baunilha se misturam de forma harmoniosa, criando um sabor complexo e envolvente. Desfrute desse sorvete como uma verdadeira indulgência, transportando-se para um mundo de prazer e delícia. A baunilha louca irá conquistar seu paladar e deixá-lo desejando por mais.",
+        "calories": 150,
+        "allergens": [
+            "milk"
+        ]
     },
     {
         "id": "dark-chocolate-raspberry-truffle.png",
         "name": "Dark Chocolate Raspberry Truffle",
         "namePtBr": "Trufa de Framboesa Chocolate Amargo",
-        "description": null,
-        "calories": null
+        "description": "Delicie-se com a combinação irresistível de framboesa e chocolate amargo neste sorvete de Trufa de Framboesa Chocolate Amargo. Cada colherada é uma experiência luxuosa e sofisticada. O sorvete de chocolate amargo é rico e intenso, com um sabor profundo e levemente amargo. Os pedaços generosos de trufa de framboesa adicionam um toque de acidez e doçura, complementando perfeitamente o chocolate. A cada mordida, você será transportado para um mundo de prazer sensorial. Aproveite essa indulgência e permita-se saborear a elegância e o requinte deste sorvete de Trufa de Framboesa Chocolate Amargo.",
+        "calories": 180,
+        "allergens": [
+            "milk",
+            "soy"
+        ]
     },
     {
         "id": "french-vanilla.png",
         "name": "French Vanilla",
         "namePtBr": "Baunilha Francesa",
-        "description": null,
-        "calories": null
+        "description": "Desfrute da suavidade e elegância da Baunilha Francesa neste sorvete irresistível. Cada colherada é uma ode aos sabores delicados e refinados. O sorvete de baunilha é feito com ingredientes da mais alta qualidade, trazendo um sabor autêntico e envolvente. A textura cremosa e a doçura equilibrada da baunilha francesa conquistarão seu paladar. Deixe-se transportar para as charmosas ruas de Paris enquanto saboreia esse sorvete de tirar o fôlego. Aproveite essa experiência sofisticada e deixe a Baunilha Francesa cativar seus sentidos.",
+        "calories": 160,
+        "allergens": [
+            "milk"
+        ]
     },
     {
         "id": "graham-central-station.png",
         "name": "Graham Central Station",
         "namePtBr": "Estação Central de Graham",
-        "description": null,
-        "calories": null
+        "description": "Transporte-se para um mundo de sabores nostálgicos com o sorvete Estação Central de Graham. Cada colherada é uma combinação perfeita de doçura, crocância e riqueza. O sorvete possui uma base de marshmallow macio e cremoso, que remete às gostosas sobremesas de marshmallow das festas de acampamento. Os pedaços generosos de biscoito de Graham adicionam uma textura crocante e um sabor levemente tostado. A cada mordida, você será levado de volta à sua infância, relembrando momentos especiais ao redor da fogueira. Desfrute desse sorvete único e deixe-se envolver pela nostalgia e sabor inigualáveis da Estação Central de Graham.",
+        "calories": 200,
+        "allergens": [
+            "milk",
+            "wheat"
+        ]
     },
     {
         "id": "green-mint-chip.png",
         "name": "Green Mint Chip",
         "namePtBr": "Lasca De Hortelã Verde",
-        "description": null,
-        "calories": null
+        "description": "Refresque-se com o sorvete de Lasca de Hortelã Verde. Cada colherada é uma explosão de frescor e sabor revigorante. O sorvete é feito com hortelã verde fresca, que adiciona um toque vibrante e refrescante. As lascas de hortelã verde são distribuídas ao longo do sorvete, proporcionando uma experiência crocante e intensificando o sabor. Desfrute dessa combinação única de doçura e frescor, que irá despertar os sentidos e deixar um gostinho refrescante. Com uma textura cremosa e um aroma convidativo, esse sorvete é perfeito para os amantes de hortelã. Aproveite essa delícia e deixe-se envolver pela Lasca de Hortelã Verde.",
+        "calories": 140,
+        "allergens": []
     },
     {
         "id": "heavenly-hazelnut.png",
         "name": "Heavenly Hazelnut",
         "namePtBr": "Avelã Celestial",
-        "description": null,
-        "calories": null
+        "description": "Delicie-se com o sorvete de Avelã Celestial e deixe-se levar pelo sabor celestial das avelãs. Cada colherada é uma experiência divina de cremosidade e notas sutis de avelã. O sorvete é feito com avelãs cuidadosamente selecionadas, que são torradas e trituradas para criar uma base rica e aveludada. Os pedaços generosos de avelãs crocantes proporcionam uma textura irresistível, enquanto o sabor delicado das avelãs dança no paladar. Desfrute desse sorvete celestial que irá satisfazer seus desejos por doçura e avelãs. A cada mordida, você será transportado para um mundo de prazer celestial.",
+        "calories": 180,
+        "allergens": [
+            "tree nuts",
+            "milk"
+        ]
     },
     {
         "id": "honey-roasted-peanut-butter.png",
         "name": "Honey Roasted Peanut Butter",
         "namePtBr": "Manteiga de Amendoim Torrada com Mel",
-        "description": null,
-        "calories": null
+        "description": "Delicie-se com o sorvete de Manteiga de Amendoim Torrada com Mel, uma combinação perfeita de sabores intensos e suavidade irresistível. Cada colherada é um equilíbrio delicioso entre a manteiga de amendoim rica e cremosa, o toque crocante do amendoim torrado e a doçura delicada do mel. O sorvete é feito com ingredientes cuidadosamente selecionados para criar uma textura cremosa e um sabor intenso. A cada mordida, você sentirá a harmonia entre a suavidade da manteiga de amendoim, a crocância dos pedaços de amendoim torrado e o toque doce do mel. Desfrute dessa combinação de sabores que irá satisfazer seu paladar e despertar seus sentidos. Permita-se saborear a perfeição da Manteiga de Amendoim Torrada com Mel.",
+        "calories": 200,
+        "allergens": [
+            "peanuts",
+            "milk"
+        ]
     },
     {
         "id": "key-lime-pie.png",
         "name": "Key Lime Pie",
         "namePtBr": "Torta de Limão",
-        "description": null,
-        "calories": null
+        "description": "Experimente a refrescância e o sabor cítrico da Torta de Limão neste delicioso sorvete. Cada colherada é uma explosão de frescor e doçura equilibrada. O sorvete é feito com um creme suave e cremoso, combinado com um irresistível swirl de limão que traz um toque cítrico e refrescante. Os pedaços de biscoito de massa de torta adicionam uma textura crocante, remetendo à clássica base de uma torta de limão. Desfrute desse sorvete que combina perfeitamente a suavidade do creme com a acidez revigorante do limão. Com cada colherada, você será transportado para o sabor delicioso e reconfortante da Torta de Limão. Aproveite essa experiência refrescante e satisfaça seu desejo por uma sobremesa irresistível.",
+        "calories": 160,
+        "allergens": [
+            "milk",
+            "wheat"
+        ]
     },
     {
         "id": "lemon-sorbet.png",
         "name": "Lemon Sorbet",
         "namePtBr": "Sorvete de Limão",
-        "description": null,
-        "calories": null
+        "description": "Refresque-se com o sorvete de Limão e desfrute de um sabor cítrico e revigorante. Cada colherada é um mergulho no frescor do limão, com sua acidez equilibrada e notas refrescantes. O sorvete é feito com suco de limão natural, proporcionando um sabor autêntico e vibrante. Sua textura cremosa e leve irá refrescar seu paladar e proporcionar uma experiência agradável. Desfrute dessa delícia refrescante em dias quentes ou como uma sobremesa leve a qualquer momento. O sorvete de Limão é a escolha perfeita para os amantes de sabores cítricos e refrescantes.",
+        "calories": 120,
+        "allergens": []
     },
     {
         "id": "lemon.png",
         "name": "Lemon",
-        "namePtBr": "Limão",
-        "description": null,
-        "calories": null
+        "namePtBr": "Limão Siciliano",
+        "description": "Delicie-se com o sorvete de Limão Siciliano e deixe-se levar pelo sabor cítrico e intenso. Cada colherada é uma explosão refrescante de limão siciliano, conhecido por seu aroma único e sabor marcante. O sorvete é feito com suco de limão siciliano fresco, proporcionando um sabor autêntico e cítrico. Sua textura cremosa e suave irá envolver seu paladar, enquanto o sabor intenso do limão siciliano desperta seus sentidos. Desfrute dessa experiência única que combina o frescor do limão siciliano com a cremosidade do sorvete. Com cada colherada, você será transportado para os encantadores campos de limão da Sicília. Aproveite esse sorvete irresistível e refrescante em qualquer momento do dia.",
+        "calories": 130,
+        "allergens": []
     },
     {
         "id": "lil-blue-panda.png",
         "name": "Lil Blue Panda",
-        "namePtBr": "Lil Panda Azul",
-        "description": null,
-        "calories": null
+        "namePtBr": "Pequeno Panda Azul",
+        "description": "Descubra a doçura e a diversão do sorvete de Pequeno Panda Azul. Cada colherada é uma aventura de sabor e uma explosão de cores. O sorvete combina um delicioso sabor de algodão doce com a refrescância do sorvete de baunilha. A cor vibrante e azul do sorvete adiciona um toque de diversão e fantasia. Desfrute dessa delícia que irá adoçar seu dia e deixar sua imaginação voar. A cada mordida, você será transportado para um mundo encantado onde os pandas azuis são a fonte de alegria. Aproveite esse sorvete que é uma festa para os olhos e para o paladar.",
+        "calories": 150,
+        "allergens": [
+            "milk"
+        ]
     },
     {
         "id": "llamalicious.png",
         "name": "Llamalicious",
-        "namePtBr": "Llamalicious",
-        "description": null,
-        "calories": null
+        "namePtBr": "Llamalicioso",
+        "description": "Desperte seu espírito aventureiro com o sorvete Llamalicioso. Cada colherada é uma explosão de sabores exóticos e divertidos. Este sorvete único combina o sabor suave da baunilha com a intensidade do chocolate e a doçura do caramelo. A textura cremosa e aveludada do sorvete irá envolver seu paladar, enquanto os pedaços crocantes de biscoito adicionam uma surpresa deliciosa a cada mordida. Desfrute dessa experiência saborosa que irá transportá-lo para um mundo cheio de aventuras e sabores exóticos. O Llamalicioso é perfeito para aqueles que buscam uma combinação ousada e irresistível de sabores em cada colherada.",
+        "calories": 180,
+        "allergens": [
+            "milk",
+            "wheat"
+        ]
     },
     {
         "id": "low-fat-blueberry-cheesecake-yogurt.png",
         "name": "Low Fat Blueberry Cheesecake Yogurt",
-        "namePtBr": "Cheesecake de Iogurte com Baixo Teor de Gordura de Mirtilo",
-        "description": null,
-        "calories": null
+        "namePtBr": "Cheesecake de Iogurte de Mirtilo com Baixo Teor de Gordura",
+        "description": "Delicie-se com o sorvete de Cheesecake de Iogurte de Mirtilo com Baixo Teor de Gordura e desfrute de um sabor cremoso e frutado. Cada colherada é uma combinação perfeita de cheesecake suave, iogurte refrescante e mirtilos deliciosos. O sorvete é feito com iogurte de baixo teor de gordura, proporcionando uma opção mais leve. A textura cremosa e suave do sorvete complementa o sabor do cheesecake e realça a doçura dos mirtilos. Desfrute desse prazer indulgente sem culpa e aproveite a combinação irresistível de sabores. O sorvete de Cheesecake de Iogurte de Mirtilo com Baixo Teor de Gordura é a escolha perfeita para os amantes de sobremesas cremosas e frutadas.",
+        "calories": 130,
+        "allergens": [
+            "milk"
+        ]
     },
     {
         "id": "low-fat-coffee-fudge-almond-fudge-yogurt.png",
         "name": "Low Fat Coffee Fudge Almond Fudge Yogurt",
-        "namePtBr": "Fudge de Café com Baixo Teor de Gordura Iogurte com Fudge de Amêndoa",
-        "description": null,
-        "calories": null
+        "namePtBr": "Fudge de Café com Fudge de Amêndoa com Baixo Teor de Gordura",
+        "description": "Desfrute da indulgência do sorvete de Fudge de Café com Fudge de Amêndoa com Baixo Teor de Gordura. Cada colherada é uma explosão de sabores intensos e texturas irresistíveis. O sorvete combina a riqueza do fudge de café com a cremosidade do fudge de amêndoa, proporcionando uma experiência indulgente sem comprometer sua dieta. Com baixo teor de gordura, você pode desfrutar dessa delícia com menos culpa. A textura suave do sorvete se funde com as mordidas macias do fudge de café e as crocantes amêndoas, criando uma combinação perfeita de sabores e texturas. Aproveite cada colherada e sinta-se mimado(a) com essa sobremesa indulgente e saborosa.",
+        "calories": 140,
+        "allergens": [
+            "milk",
+            "almonds"
+        ]
     },
     {
         "id": "maple-walnut.png",
