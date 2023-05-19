@@ -15,7 +15,7 @@ export default function Home() {
 				<div className="w-[inherit] flex flex-wrap h-auto justify-evenly">
 					{flavors.map((flavor) => (
 						<Link
-							className="cursor-pointer w-72 h-72 m-12 align-middle rounded-2xl hover:animate-pulse bg-bg_color_tertiary"
+							className="cursor-pointer shadow-2xl w-72 h-72 m-12 align-middle rounded-2xl hover:animate-pulse bg-bg_color_tertiary"
 							href={`/flavors/${flavor.id.replace('.png', '')}`}
 							key={flavor.id}
 						>
