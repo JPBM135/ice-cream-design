@@ -144,14 +144,14 @@ export default function FlavorsPage() {
 						</div>
 					))}
 				</div>
-				<div className="w-[600px] h-[91.5vh] bg-secondary sticky right-0 top-[5rem] flex flex-col justify-between">
+				<div className="w-[600px] h-[91.5vh] bg-secondary sticky right-0 top-[5rem] flex flex-col">
 					<div className="h-5">
 						{flavors
 							.filter((flavor) => flavor.selected)
 							.map((flavor, index) => (
 								<Image
 									alt={flavor.name}
-									className={`m-auto mb-0 relative z-${index} select-none`}
+									className={`m-auto -mb-80 relative top-40 z-${index} select-none`}
 									height={selectedIceCreamSize ?? 300}
 									key={flavor.id}
 									loading="lazy"

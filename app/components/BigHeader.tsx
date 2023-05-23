@@ -33,11 +33,6 @@ export function BigImageHeader(): JSX.Element {
 					<Image alt="Authentic Gourmet Logo" className="mt-52" height={250} src="/logo.png" width={250} />
 				</div>
 				<nav className="flex space-x-4 gap-5">
-					<Link className={`text-white hover:border-b-primary flex pb-2 border-b-white border-b `} href="/store">
-						<Storefront size={24} weight="bold" />
-						<VerticalDivider />
-						Nossa Loja
-					</Link>
 					<Link className={`text-white hover:border-b-primary flex pb-2 border-b-white border-b `} href="/about">
 						<Info size={24} weight="bold" />
 						<VerticalDivider />

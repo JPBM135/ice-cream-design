@@ -56,18 +56,8 @@ export function Header({ allowBiggerLogo = true }: { allowBiggerLogo?: boolean }
 
 	return (
 		<div className="px-10 py-5 w-full flex items-center justify-between bg-bg_color_tertiary sticky top-0 z-50">
-			<div className="flex items-center space-x-4 w-[40rem]">
+			<div className="flex justify-between items-center space-x-4 w-[40rem]">
 				<nav className="flex space-x-4 gap-5">
-					<Link
-						className={`text-white hover:border-b-primary flex pb-2 border-b-white border-b ${
-							isSelected('/store', path) ? glowTailwindClass : ''
-						}`}
-						href="/store"
-					>
-						<Storefront size={24} weight="bold" />
-						<VerticalDivider />
-						Nossa Loja
-					</Link>
 					<Link
 						className={`text-white hover:border-b-primary flex pb-2 border-b-white border-b ${
 							isSelected('/about', path) ? glowTailwindClass : ''
@@ -138,7 +128,7 @@ export function Header({ allowBiggerLogo = true }: { allowBiggerLogo?: boolean }
 						Participantes
 					</div>
 					{studentsOpen && (
-						<div className="absolute top-20 right-2 bg-bg_color rounded-md shadow-md p-4 border-gray-900 border-2">
+						<div className="z-50 absolute top-20 right-2 bg-bg_color rounded-md shadow-md p-4 border-gray-900 border-2">
 							<div className="flex items-center space-x-2 text-gray-800 border-b border-gray-300" />
 							{student.map((student) => (
 								<div
